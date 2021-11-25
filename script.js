@@ -6,7 +6,7 @@ function compute()
     var interest = principal * years * range /100;
     var year = new Date().getFullYear()+parseInt(years);
     //Reference to the element "result". Tag <mark> was added to highlight the result numbers:
-    document.getElementById("result").innerHTML= "\<br\>\<br\>If you deposit <mark>"+principal+"</mark>,\<br\>at an interest rate of <mark>"+range+"%</mark>\<br\>You will receive an amount of <mark>"+interest+"</mark>,\<br\>in the year <mark>"+year+"</mark>\<br\>"
+    document.getElementById("result").innerHTML= "\<br\>\<br\>If you deposit <mark>"+principal+"</mark>,at an interest rate of <mark>"+range+"%</mark><br\>You will receive an amount of <mark>"+interest+"</mark>,\<br\>in the year <mark>"+year+"</mark><br\>"
     
         
 }
